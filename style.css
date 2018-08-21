@@ -1,0 +1,222 @@
+/* General styles*/
+
+.underline {
+    border-bottom: 2px solid #cccccc; 
+}
+
+/* Header*/
+
+nav {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #777777;
+    text-decoration: none;
+}
+
+
+.navbar {
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-h1 {
+    background-color: #4aaaa5;
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.center-anchor {
+    border-right: 1px solid #777777;
+    border-left: 1px solid #777777;
+}
+
+#right-anchor {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.navbar-toggler-icon {
+    top: 0;
+}
+
+main {
+    background: url(C:\Users\EMRE\apps\Basic-Portfolio\assets\images\backgroundimage.jpg);
+    background-image: url(C:\Users\EMRE\apps\Basic-Portfolio\assets\images\backgroundimage.jpg);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    overflow: auto;
+}
+
+/* Footer*/
+
+ footer {   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #b0acb0;
+    border-top: 8px solid #4aaaa5;
+ }
+
+/* About Page*/
+
+.container {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.about {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.margin-control  {
+    padding: 0;
+}
+
+.img-about {
+    float: left;
+    max-width: 40%; 
+    height: auto;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.first-p {
+    font-size: 20px;
+    color: #777777;
+    line-height: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.after-p {
+    font-size: 20px;
+    color: #777777;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+/*Portfolio Page*/
+
+
+.img-port {
+    height: 85%; 
+    width: 85%; 
+}
+
+.margin-push {
+    margin-left: 15px;
+}
+
+span {
+    position: relative;
+    width: 85%; 
+    height: 60px;
+    top: -70px;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    display: block;
+}
+
+/* Contact Page*/
+input[type=submit] {
+    height: 40px;
+    width: 115px;
+    font-size: 16px;
+    background-color:  #4aaaa5;
+    color: white;
+    padding: 12px 20px 30px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #357b77;
+}
+
+.contact {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.input {
+    width: 99%;
+    height: 36px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #e1e1e1;
+}
+
+.input:focus {
+    outline-color: #d4eceb;
+}
+
+.content-form {
+    font-size: 20px;
+    color: #777777;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.message {
+    height: 200px; 
+}
+
+.border-buffer {
+    color: #777777;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
